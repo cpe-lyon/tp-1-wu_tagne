@@ -19,16 +19,16 @@
 5. *cd /root * on a pas accès au dossier  root , on le message *permission denied*. 
 6. *sudo cd /root*  on nous demande de saisir le mot de passe de  l'utilisateur supérieur du systeme linux.
 7. *cd*
-   *mkdir Dossier1*
-   *mkdir Dossier2*
-   *cd Dossier1*
-   *touch Fichier1*
-   *cd ../Dossier2*
-   *mkdir Dossier2.1*
-   *mkdir Dossier2.2*
-   *cd Dossier2.2*
-   *touch Fichier2*
-   *touch Fichier3*
+   *mkdir Dossier1* <br>
+   *mkdir Dossier2* <br>
+   *cd Dossier1* <br>
+   *touch Fichier1* <br>
+   *cd ../Dossier2* <br>
+   *mkdir Dossier2.1* <br>
+   *mkdir Dossier2.2* <br>
+   *cd Dossier2.2* <br>
+   *touch Fichier2* <br>
+   *touch Fichier3* <br>
 
 8. Il nous dit que Dossier1 est un directory, et ne peut pas être supprimé.
 9. La commande *rmdir* permet de suprimmer un dossier.
