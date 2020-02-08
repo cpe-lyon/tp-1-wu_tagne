@@ -66,28 +66,28 @@
 
 19. On a 4 pages de manuel  qui comportent le mot-clé conversion dans leur description on les a trouvé grace à la commande *man -f conversion*.
 
-20. À l'aide  de  la commande *find / -name passwd* on a trouvé des fichiers ci-dessous
-	/etc/cron.daily/passwd
-	/etc/pam.d/passwd
-	/etc/passwd
-	/snap/core/8268/etc/cron.daily/passwd
-	/snap/core/8268/etc/pam.d/passwd
-	/snap/core/8268/etc/passwd
-	/snap/core/8268/usr/bin/passwd
-	/snap/core/8268/usr/share/bash-completion/completions/passwd
-	/snap/core/8268/usr/share/doc/passwd
-	/snap/core/8268/var/lib/extrausers/passwd
-	/snap/core/7917/etc/cron.daily/passwd
-	/snap/core/7917/etc/pam.d/passwd
-	/snap/core/7917/etc/passwd
-	/snap/core/7917/usr/bin/passwd
-	/snap/core/7917/usr/share/bash-completion/completions/passwd
-	/snap/core/7917/usr/share/doc/passwd
-	/snap/core/7917/var/lib/extrausers/passwd
-	/usr/bin/passwd
-	/usr/share/lintian/overrides/passwd
-	/usr/share/doc/passwd
-	/usr/share/bash-completion/completions/passwd
+20. À l'aide  de  la commande *find / -name passwd* on a trouvé des fichiers ci-dessous <br>
+	/etc/cron.daily/passwd <br>
+	/etc/pam.d/passwd <br>
+	/etc/passwd <br>
+	/snap/core/8268/etc/cron.daily/passwd <br>
+	/snap/core/8268/etc/pam.d/passwd <br>
+	/snap/core/8268/etc/passwd <br>
+	/snap/core/8268/usr/bin/passwd <br>
+	/snap/core/8268/usr/share/bash-completion/completions/passwd <br>
+	/snap/core/8268/usr/share/doc/passwd <br>
+	/snap/core/8268/var/lib/extrausers/passwd <br>
+	/snap/core/7917/etc/cron.daily/passwd <br>
+	/snap/core/7917/etc/pam.d/passwd <br>
+	/snap/core/7917/etc/passwd <br>
+	/snap/core/7917/usr/bin/passwd <br>
+	/snap/core/7917/usr/share/bash-completion/completions/passwd <br>
+	/snap/core/7917/usr/share/doc/passwd <br>
+	/snap/core/7917/var/lib/extrausers/passwd <br>
+	/usr/bin/passwd <br>
+	/usr/share/lintian/overrides/passwd <br>
+	/usr/share/doc/passwd <br>
+	/usr/share/bash-completion/completions/passwd  
 
 
 21. La commande *find / -name passwd 1> ~/list_passwd_files.txt 2> /dev/null* permet  de  donner  la liste des fichiers trouvés soit enregistrée dans le fichier ~/list_passwd_files.txt et que les erreurs soient redirigées vers le fichier spécial /dev/null 
@@ -96,7 +96,6 @@
 24. Dans notre cas, nous pouvons touver le fichier. Cependant, on ne peut pas localiser le fichier qu'on vient de créer. C'est parce que la commande *locate* cherche un fichier de la base de données créer par programme *crontab*.  Cette  base  de données n'est pas mis à jour toutes les secondes. on ne peut pas le localiser parfois.
 	
 
-
 ##  EXERCICE 4
 
 3. Après le test de la commande *source .bashrc*, l'invite de commande a changé en couleurs sans redémarrer le shell:
@@ -104,6 +103,6 @@
 ![changer couleur](/images/changer_couleur.png)	
 	
 
-4.  On doit seulement changer la premiere ligne  PS1 à	**PS1='${debian_chroot:+($debian_chroot)}\[\033[01;31m\]\A\[\033[00m\]\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ '**, et après l'invite de commande est bien modifiée.
+4.  On doit seulement changer la premiere ligne  PS1 à	 <br>**PS1='${debian_chroot:+($debian_chroot)}\[\033[01;31m\]\A\[\033[00m\]\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ '**,  <br>et après l'invite de commande est bien modifiée.
 
 
