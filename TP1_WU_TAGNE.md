@@ -2,7 +2,7 @@
 
 ##  EXERCICE 2
 
-# ##Manuel 
+### Manuel 
 
 1. La commande which permet   de localiser une commande.
 2. Pour chercher un terme on utilise le mot clé  *apropos* suivi du mot que l'on cherche.
