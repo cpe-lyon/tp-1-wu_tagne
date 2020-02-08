@@ -1,8 +1,8 @@
-### COMPTE RENDU  TP1
+# COMPTE RENDU  TP1
 
 ##  EXERCICE 2
 
-# Manuel 
+# ##Manuel 
 
 1. La commande which permet   de localiser une commande.
 2. Pour chercher un terme on utilise le mot clé  *apropos* suivi du mot que l'on cherche.
@@ -10,7 +10,7 @@
 4. On a afficheer la premiere page du manuel avec la commande *man 6 inntro* cette  page parle de l'introduction to games.
 
 
-# Navigation dans l’arborescence des fichiers 
+### Navigation dans l’arborescence des fichiers 
 
 1. On a utlisé la commande :*cd /var/log*.
 2. *cd ..*  cette commande permet de remonter dans le dossier parent.
@@ -37,7 +37,7 @@
 
 
 
-# Commandes importantes 
+### Commandes importantes 
 1. La commande *date* permet d'afficher l'heure  et la date.Commande*time commande* permet d'afficher le temps d'execution d'une commande.
 2. La commande *ls* permet d'afficher les fichiers visuels  , *la* elle permet d'afficher les fichier commencant par un point  et ls -a permet d'afficher tout les fichiers meme les liens.
 3. Le programme *ls* se trouve dans */bin*.
