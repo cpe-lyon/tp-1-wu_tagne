@@ -7,7 +7,7 @@
 1. La commande which permet   de localiser une commande.
 2. Pour chercher un terme on utilise le mot clé  `apropos` suivi du mot que l'on cherche.
 3. Pour quitter le manuel on utilise la touche `q` du clavier.
-4. On a afficheer la premiere page du manuel avec la commande `man 6 inntro` cette  page parle de l'introduction to games.
+4. On a afficheer la premiere page du manuel avec la commande `man 6 intro` cette  page parle de l'introduction to games.
 
 
 ### Navigation dans l’arborescence des fichiers 
